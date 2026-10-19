@@ -1,0 +1,27 @@
+{
+  "name": "change-impact-mapper",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Map changed artifacts to affected criteria and tests.",
+  "main": "change-impact-mapper.js",
+  "exports": {
+    ".": "./change-impact-mapper.js"
+  },
+  "files": [
+    "change-impact-mapper.js",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "agents",
+    "reliability",
+    "verification",
+    "change-impact-mapper"
+  ],
+  "license": "MIT"
+}
